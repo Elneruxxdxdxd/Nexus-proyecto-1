@@ -1,4 +1,4 @@
-# GroStop- An E-Commerce Grocery Store website using Flask
+# Nexus team - trabajo 1
 We have incorporated the database in the form of an application
 where we have tried to resemble it into an E-commerce website which is in a running
 form where users,sellers, and Administrators can work as they want in a real-life
@@ -11,48 +11,8 @@ constraints to put up an actual E-commerce site. We have connected the Database 
 our actual website which maintains the recording accordingly, if we do any basic change
 some change happens in or database.
 
-## The Team 😀
-All of us are CS undergrads at `IIIT Delhi`
-- Vibhor Agarwal
-- Anshak Goel
-- Pritish Poswal
-- Deeptorshi Mondal
 
-## Project Report 📙📙
-Here find the most detailed [`Report`](https://drive.google.com/file/d/1gwSO9Enmp2_QrMFgUFrtEVAthKgwKdty/view?usp=sharing) you will ever get. It has even the most minute details of our project.
-The `submit` folder contains the project report, variours `SQL Queries` and `SQL Triggers`.
-
-## Tech-Stack Used
-- `Frontend` - HTML, CSS, BootStrap 5, Jinja Template.
-- `Backend` - Python, Flask, MySQL Database.
-- We have populated our database with real and good amount of data to test to the website properly. Data coherency has been taken utmost care of.
-- Proper entities have been maintained in our [ER Diagram](https://drive.google.com/file/d/1gwWgqiIbi1ccUUxpN0GYY3s55nHbmFaf/view?usp=sharing) and 
-[Relational Diagram](https://drive.google.com/file/d/1oxjCmVsO1gFkM2QC8il61GxXf2bP8CS7/view?usp=share_link)
-
-![image](https://user-images.githubusercontent.com/76804249/189937796-1c29cdbc-a151-4b2a-a95f-8d3744407aa2.png)
-
-We chose `Flask` as our backend becuase we needed the website to be working as quickly as possible to allign with our
-project timeline. Also we chose `MySQL` as our database becuase we were working with it in our DBMS course in Undergrad.
-
-## Steps to deploy the website ❓
-- First clone this repository
-- Then open the cloned folder
-- We now need to restore the database from the dump.
-- - Open the CMD in current folder and run the following command
-```
-mysql -u root -p online_store < Dump.sql
-```
-- Now create a virtual environment using the following command
-```
-py -m venv online_store
-```
-- Now activate this environment by running `.\online_store\Scripts\Activate.ps1`
-- Now we need to pull up the project requirements. Run the below command
-```
-pip install -r .\requirements.txt
-```
-- This completes the setup process to run the website. Just run using running the `run.py` file 😀
-
+para desplegar el sitio descargar el repositorio original y pegar los archivos principales mostrados en este, despues solo ejecutar el launcher que añadi
 # Demo of the website
 
 ## Login Screen
